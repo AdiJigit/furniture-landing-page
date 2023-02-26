@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { SlArrowRightCircle } from 'react-icons/sl';
 
-const featured2 = require('/assets/featured2.png')
+const featured2 = require('../public/assets/featured2.png')
 
 export default function Home() {
   return (
