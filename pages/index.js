@@ -4,6 +4,8 @@ import Head from 'next/head';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { SlArrowRightCircle } from 'react-icons/sl';
 
+const featured2 = require('/assets/featured2.png')
+
 export default function Home() {
   return (
     <>
@@ -58,7 +60,7 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap mt-10 justify-center items-center">
               <img
-                src='assets/featured2.png'
+                src={featured2}
                 alt=""
                 className="w-[150px] h-[150px] sm:h-max sm:w-max mt-3 sm:mt-0"
               />
