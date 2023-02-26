@@ -59,7 +59,7 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap mt-10 justify-center items-center">
               <img
-                src={featured2}
+                src='/assets/featured02.png'
                 alt=""
                 className="w-[150px] h-[150px] sm:h-max sm:w-max mt-3 sm:mt-0"
               />
