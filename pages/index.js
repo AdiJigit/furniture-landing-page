@@ -58,22 +58,22 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap mt-10 justify-center items-center">
               <img
-                src="assets/featured2.png"
+                src="/assets/featured2.png"
                 alt=""
                 className="w-[150px] h-[150px] sm:h-max sm:w-max mt-3 sm:mt-0"
               />
               <img
-                src="assets/featured3.png"
+                src="/assets/featured3.png"
                 alt=""
                 className="w-[150px] h-[150px] sm:h-max sm:w-max pt-2"
               />
               <img
-                src="assets/featured4.png"
+                src="/assets/featured4.png"
                 alt=""
                 className="w-[150px] h-[150px] sm:h-max sm:w-max pt-1"
               />
               <img
-                src="assets/featured5.png"
+                src="/assets/featured5.png"
                 alt=""
                 className="w-[150px] h-[150px] sm:h-max sm:w-max"
               />
@@ -89,17 +89,17 @@ export default function Home() {
             </div>
             <div className="mt-10 flex flex-wrap justify-center items-center">
               <img
-                src="assets/section3-1.png"
+                src="/assets/section3-1.png"
                 alt=""
                 className="w-[150px] h-[150px] sm:h-[300px] sm:w-[300px]"
               />
               <img
-                src="assets/section3-2.png"
+                src="/assets/section3-2.png"
                 alt=""
                 className="w-[150px] h-[150px] sm:h-[300px] sm:w-[300px]"
               />
               <img
-                src="assets/section3-3.png"
+                src="/assets/section3-3.png"
                 alt=""
                 className="w-[150px] h-[150px] sm:h-[300px] sm:w-[300px]"
               />
@@ -126,7 +126,7 @@ export default function Home() {
                 </p>
                 <div className="flex mt-2 mb-4 sm:mb-0 sm:mt-4 w-max items-center justify-center gap-2 px-2 py-1 sm:px-5 sm:py-1 rounded-full bg-black font-[500] text-white">
                   <button className="text-sm sm:text-mormal">See more</button>
-                  <SlArrowRightCircle className="ml-2 text-[20px] sm:text-[25px]"/>
+                  <SlArrowRightCircle className="ml-2 text-[20px] sm:text-[25px]" />
                 </div>
               </div>
               <div>
@@ -146,12 +146,14 @@ export default function Home() {
         </section>
         <section>
           <div className="h-full sm:min-h-[100vh] mt-32 bg-[#F3F2F2]">
-            <h1 className="text-[30px] py-10 sm:py-0 sm:text-[70px] font-[500] w-max ml-10">ONE STOP SOLUTION</h1>
-            <img src="assets/section4.png" alt="" className="m-auto" />
+            <h1 className="text-[30px] py-10 sm:py-0 sm:text-[70px] font-[500] w-max ml-10">
+              ONE STOP SOLUTION
+            </h1>
+            <img src="//assets/section4.png" alt="" className="m-auto" />
             <p className="font-[500] pb-10 sm:pb-0 px-2 sm:px-20 mt-10">
               Working within our DEX team means that you have a tangible impact
-              on the customer&apos;s delivery experience. We deliver packages (and
-              groceries, Prime Now, 3P, and restaurant orders) to homes,
+              on the customer&apos;s delivery experience. We deliver packages
+              (and groceries, Prime Now, 3P, and restaurant orders) to homes,
               businesses, Amazon Lockers, and even cars all over the world! This
               network is powered by hundreds of small businesses and tens of
               thousands of drivers that leverage Amazon technology to deliver
@@ -163,22 +165,28 @@ export default function Home() {
           <div className="mt-32 sm:min-h-[100vh] bg-[#F3F2F2]">
             <div className="flex gap-5 sm:gap-0 justify-around p-10">
               <div className="flex-1">
-                <img src="assets/logo-footer.png" alt="" />
+                <img src="//assets/logo-footer.png" alt="" />
               </div>
               <div className="flex-1">
                 <h3 className="text-[15px] sm:text-[30px] h-[70px] sm:h-[130px] font-[500] uppercase">
                   Quick Navigation
                 </h3>
                 <p className="text-sm sm:text-normal font-[500]">About us</p>
-                <p className="text-sm sm:text-normal mt-4 font-[500]">News & Events</p>
-                <p className="text-sm sm:text-normal mt-4 font-[500]">Terms & Conditions</p>
+                <p className="text-sm sm:text-normal mt-4 font-[500]">
+                  News & Events
+                </p>
+                <p className="text-sm sm:text-normal mt-4 font-[500]">
+                  Terms & Conditions
+                </p>
               </div>
               <div className="flex-1">
                 <h3 className="text-[15px] sm:text-[30px] h-[70px] sm:h-[130px] font-[500] uppercase">
                   Knowledge Base
                 </h3>
                 <p className="text-sm sm:text-normal font-[500]">FAQ</p>
-                <p className="text-sm sm:text-normal mt-4 font-[500]">Return Policy</p>
+                <p className="text-sm sm:text-normal mt-4 font-[500]">
+                  Return Policy
+                </p>
                 <p className="text-sm sm:text-normal mt-4 font-[500]">Emi</p>
               </div>
               <div className="flex-1">
@@ -186,10 +194,18 @@ export default function Home() {
                   Information
                 </h3>
                 <p className="text-sm sm:text-normal font-[500]">New Arrival</p>
-                <p className="text-sm sm:text-normal mt-4 font-[500]">Installment</p>
-                <p className="text-sm sm:text-normal mt-4 font-[500]">Delivery</p>
-                <p className="text-sm sm:text-normal mt-4 font-[500]">Warranty</p>
-                <p className="text-sm sm:text-normal mt-4 font-[500]">Privacy Policy</p>
+                <p className="text-sm sm:text-normal mt-4 font-[500]">
+                  Installment
+                </p>
+                <p className="text-sm sm:text-normal mt-4 font-[500]">
+                  Delivery
+                </p>
+                <p className="text-sm sm:text-normal mt-4 font-[500]">
+                  Warranty
+                </p>
+                <p className="text-sm sm:text-normal mt-4 font-[500]">
+                  Privacy Policy
+                </p>
               </div>
             </div>
             <div className="flex justify-center">
