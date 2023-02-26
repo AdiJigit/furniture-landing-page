@@ -58,7 +58,7 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap mt-10 justify-center items-center">
               <img
-                src='/assets/featured2.png'
+                src='assets/featured2.png'
                 alt=""
                 className="w-[150px] h-[150px] sm:h-max sm:w-max mt-3 sm:mt-0"
               />
@@ -104,7 +104,7 @@ export default function Home() {
                 className="w-[150px] h-[150px] sm:h-[300px] sm:w-[300px]"
               />
             </div>
-            <div className="mt-10 sm:mt-5 flex flex-wrap sm:flex-nowrap justify-around">
+            <div className="mt-10 sm:mt-5 flex flex-wrap sm:flex-nowrap justify-center gap-16">
               <div>
                 <h1 className="text-[20px] sm:text-[30px] font-[500] tracking-widest">
                   For Office
