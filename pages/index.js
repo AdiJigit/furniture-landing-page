@@ -113,7 +113,7 @@ export default function Home() {
                   Technical appliance for office. Best for small business.
                 </p>
                 <div className="flex mt-2 mb-4 sm:mb-0 sm:mt-4 w-max items-center justify-center gap-2 px-2 py-1 sm:px-5 sm:py-1 rounded-full bg-black font-[500] text-white">
-                  <button className="text-sm sm:text-mormal">See more</button>
+                  <button className="text-sm sm:text-normal">See more</button>
                   <SlArrowRightCircle className="ml-2 text-[20px] sm:text-[25px]" />
                 </div>
               </div>
@@ -137,7 +137,7 @@ export default function Home() {
                   Technical appliance for office. Best for small business.
                 </p>
                 <div className="flex mt-2 mb-20 sm:mt-4 w-max items-center justify-center gap-2 px-2 py-1 sm:px-5 sm:py-1 rounded-full bg-black font-[500] text-white">
-                  <button className="text-sm sm:text-mormal">See more</button>
+                  <button className="text-sm sm:text-normal">See more</button>
                   <SlArrowRightCircle className="ml-2 text-[20px] sm:text-[25px]" />
                 </div>
               </div>
