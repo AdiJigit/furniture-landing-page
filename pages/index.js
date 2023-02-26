@@ -4,7 +4,6 @@ import Head from 'next/head';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { SlArrowRightCircle } from 'react-icons/sl';
 
-import featured2 from '../public/assets/featured2.png'
 
 export default function Home() {
   return (
@@ -23,7 +22,7 @@ export default function Home() {
               Sit with luxury
             </h1>
             <img
-              src="assets/chair.png"
+              src="/assets/chair.png"
               alt=""
               className="absolute w-[200px] h-[200px] sm:h-max sm:w-max right-20 sm:right-[100px] top-[230px] sm:top-[50px]"
             />
@@ -65,17 +64,17 @@ export default function Home() {
                 className="w-[150px] h-[150px] sm:h-max sm:w-max mt-3 sm:mt-0"
               />
               <img
-                src="assets/featured3.png"
+                src="assets/featured02.png"
                 alt=""
                 className="w-[150px] h-[150px] sm:h-max sm:w-max pt-2"
               />
               <img
-                src="assets/featured4.png"
+                src="assets/featured03.png"
                 alt=""
                 className="w-[150px] h-[150px] sm:h-max sm:w-max pt-1"
               />
               <img
-                src="assets/featured5.png"
+                src="assets/featured04.png"
                 alt=""
                 className="w-[150px] h-[150px] sm:h-max sm:w-max"
               />
@@ -91,17 +90,17 @@ export default function Home() {
             </div>
             <div className="mt-10 flex flex-wrap justify-center items-center">
               <img
-                src="assets/section3-1.png"
+                src="/assets/section1.png"
                 alt=""
                 className="w-[150px] h-[150px] sm:h-[300px] sm:w-[300px]"
               />
               <img
-                src="assets/section3-2.png"
+                src="/assets/section1.png"
                 alt=""
                 className="w-[150px] h-[150px] sm:h-[300px] sm:w-[300px]"
               />
               <img
-                src="assets/section3-3.png"
+                src="/assets/section3.png"
                 alt=""
                 className="w-[150px] h-[150px] sm:h-[300px] sm:w-[300px]"
               />
@@ -151,7 +150,7 @@ export default function Home() {
             <h1 className="text-[30px] py-10 sm:py-0 sm:text-[70px] font-[500] w-max ml-10">
               ONE STOP SOLUTION
             </h1>
-            <img src="assets/section4.png" alt="" className="m-auto" />
+            <img src="/assets/section4.png" alt="" className="m-auto" />
             <p className="font-[500] pb-10 sm:pb-0 px-2 sm:px-20 mt-10">
               Working within our DEX team means that you have a tangible impact
               on the customer&apos;s delivery experience. We deliver packages
@@ -167,7 +166,7 @@ export default function Home() {
           <div className="mt-32 sm:min-h-[100vh] bg-[#F3F2F2]">
             <div className="flex gap-5 sm:gap-0 justify-around p-10">
               <div className="flex-1">
-                <img src="assets/logo-footer.png" alt="" />
+                <img src="/assets/footer-img.png" alt="" />
               </div>
               <div className="flex-1">
                 <h3 className="text-[15px] sm:text-[30px] h-[70px] sm:h-[130px] font-[500] uppercase">

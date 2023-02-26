@@ -12,7 +12,7 @@ export default function Navbar() {
         <p className='lg:mr-14 h-max cursor-pointer'>Blog</p>
       </div>
       <div className='flex-[1] flex items-center gap-5'>
-        <img src='assets/logo.png' alt='' className='h-[13vh]' />
+        <img src='/assets/logo.png' alt='' className='h-[13vh]' />
         <div className='hidden sm:flex h-max p-2 items-center gap-2'>
           <BiSearch size={25} className='cursor-pointer' />
           <input className='p-2 text-sm w-[40vh] rounded-sm' type='text' name='search' placeholder='What are you looking for?' />
@@ -20,7 +20,7 @@ export default function Navbar() {
       </div>
       <div className='flex h-[13vh] justify-end items-center gap-4'>
         <p className='font-[500] pr-2 border-r cursor-pointer'>Adi</p>
-        <img src='assets/profile.png' alt='' className='w-[50px] h-[50px] cursor-pointer' /> 
+        <img src='/assets/profile.png' alt='' className='w-[50px] h-[50px] cursor-pointer' /> 
       </div>
     </div>
   )
