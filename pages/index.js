@@ -150,7 +150,7 @@ export default function Home() {
             <img src="assets/section4.png" alt="" className="m-auto" />
             <p className="font-[500] pb-10 sm:pb-0 px-2 sm:px-20 mt-10">
               Working within our DEX team means that you have a tangible impact
-              on the customer's delivery experience. We deliver packages (and
+              on the customer&apos;s delivery experience. We deliver packages (and
               groceries, Prime Now, 3P, and restaurant orders) to homes,
               businesses, Amazon Lockers, and even cars all over the world! This
               network is powered by hundreds of small businesses and tens of
