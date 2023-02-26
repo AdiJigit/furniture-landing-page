@@ -150,7 +150,7 @@ export default function Home() {
             <h1 className="text-[30px] py-10 sm:py-0 sm:text-[70px] font-[500] w-max ml-10">
               ONE STOP SOLUTION
             </h1>
-            <img src="/assets/section4.png" alt="" className="m-auto" />
+            <img src="/assets/section04.png" alt="" className="m-auto" />
             <p className="font-[500] pb-10 sm:pb-0 px-2 sm:px-20 mt-10">
               Working within our DEX team means that you have a tangible impact
               on the customer&apos;s delivery experience. We deliver packages
